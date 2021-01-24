@@ -318,6 +318,9 @@ span{
 	.col2{
 		width: 100%;
 	}
+	.backimg{
+		width:100%;
+	}
 	.foot{
 		flex-direction: column;
 	}

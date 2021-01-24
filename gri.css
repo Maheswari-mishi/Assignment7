@@ -1,0 +1,332 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.row1{
+	width: 100%;
+	background-color: #0e9dd5;
+}
+.topbar{
+	width: 85%;
+	margin: 0 auto;	
+	overflow: hidden;
+}
+.topleft{
+	float: left;
+}
+.contact{
+	color: white;
+	font-size: 20px;
+}
+.contact i{
+	margin-right: 5px;
+}
+.topright{
+	float: right;
+}
+.icon{
+	color: white;
+	font-size: 20px;
+}
+.icon i{
+	margin-left: 5px;
+}
+.row2{
+	width: 100%;
+	background-color: #35a7d6;
+}
+.logo{
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 10px 0;
+}
+.logoimg{
+	float: left;
+}
+.logoimg img{
+	height: 100px;
+}
+.search{
+	float: right;
+}
+.searchbox{
+	margin-top: 30px;
+}
+.row3{
+	width: 100%;
+	background-color: #0e9dd5;
+}
+.nav{
+	width: 85%;
+	margin: 0 auto;
+}
+.menu{
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: space-evenly;
+	padding: 15px 0;
+}
+.menu div a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.banner img{
+	max-width: 100%;
+}
+.row5{
+	display: flex;
+	margin-top: -5px;
+}
+.gallery{
+	width: 25%;
+}
+.gallery img{
+	max-width: 100%;
+}
+.info{
+	text-align: center;
+}
+.info h2{
+	color: #1298f1;
+}
+.info p{
+	padding: 10px 35px;
+}
+.row6{
+	width: 100%;
+	background-color: white;
+}
+.head{
+	width: 85%;
+	margin: 0 auto;
+	background-color:#1298f1; 
+}
+.head h1{
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+}
+.images{
+	width: 85%;
+	margin: 0 auto;
+}
+.products{
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+.photos{
+	width: 20%;
+}
+.photos img{
+	max-width: 100%;
+	border: 1px solid gray;
+}
+.photos p{
+	text-align: center;
+	color: #1298f1;
+	font-weight: bold;
+}
+.row7{
+	width: 100%;
+	background-color: #e0e0e0;
+	padding: 25px 0;
+}
+.industry{
+	width: 85%;
+	margin: 0 auto;
+}
+.sec1{
+	background-color:#1298f1;
+}
+.sec1 h1{
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+}
+.sec2{
+	width: 85%;
+	margin: 0 auto;
+}
+.group1{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col1{
+	width: 40%;
+	background-color: white;
+}
+.col1a{
+	background-color: #1298f1;
+	width: 100%;
+	margin: 0px;
+	color: white;
+	padding: 5px 25px;
+	text-align: left;
+}
+.col1b{
+	padding: 0 25px;
+	color: #1298f1;
+}
+.col1b p{
+	font-size: 23px;
+}
+.col2{
+	width: 60%;
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.backimg{
+	background-color: black;
+	opacity: 0.80;	
+	width: 55%;
+	height: 100%;
+
+	}
+.col2a p{
+	color: white;
+	padding: 10px 25px;
+	font-size: 20px;
+	margin: 0;
+}
+.col2a ul li
+{
+	color: white;
+	padding: 0px 25px;
+	font-size: 20px;
+}
+.row8{
+	width: 100%;
+	margin: -21px 0 0 0;
+	padding: 0;
+}
+.vaccum{
+	background-image: url(vacum.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.backcolor{
+	background-color: #1298f1;
+	opacity: 0.80;
+}
+.p1{
+	text-align: center;
+	color: white;
+}
+.p1 h1{
+	padding-top: 70px;
+}
+.p2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.p2a,.p2b{
+	width: 40%;
+	text-align: center;
+	background-color: white;
+	margin-right: 20px;
+	margin-bottom: 70px;
+}
+.p2a h2 ,.p2b h2{
+  color: #0392CC;
+  margin:8px 0;
+}
+.row9{
+	width: 100%;
+	background-color: white;
+}
+.footer{
+	width: 85%;
+	margin: 0 auto;
+}
+.foot{
+	display: flex;
+	flex-wrap: wrap;
+}
+.f1{
+	width: 25%;
+	margin-top: 35px;
+}
+.f1 h2,.f1 p,.f1 i{
+	color: #1298f1;
+	padding: 5px 5px;
+}
+ .icon1 i{
+	background-color:  #1298f1;
+	padding: 5px;
+	color: white;
+}
+.l1 img{
+	max-width: 80%;
+}
+span{
+	font-size: 25px;
+	color: #1298f1;
+}
+
+
+
+@media only screen and (max-width: 576px){
+	.topleft,.topright{
+		float: none;
+		text-align: center;
+	}
+	.topright{
+		display: none;
+	}
+	.logoimg,.search{
+		float: none;
+		text-align: center;
+	}
+	.menu{
+		flex-direction: column;
+		text-align: center;
+	}
+	.row5{
+		flex-wrap: wrap;
+	}
+	.gallery{
+		width: 50%;
+	}
+	.info h2{
+		font-size: 20px;
+	}
+	.info p{
+		font-size: 15px;
+	}
+	.products{
+		flex-wrap: wrap;
+	}
+	.photos{
+		width: 50%;
+	}
+	.group1{
+		flex-direction: column;
+	}
+	.col1{
+		width:100%;
+	}
+	.col2{
+		width: 100%;
+	}
+	.foot{
+		flex-direction: column;
+	}
+	.f1{
+		width: 100%;
+	}
+
+}
+
+
+
+
